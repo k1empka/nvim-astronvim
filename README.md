@@ -4,6 +4,10 @@ A user configuration template for [AstroNvim](https://github.com/AstroNvim/Astro
 
 ## 🛠️ Installation
 
+#### Instal Go
+
+#### Instal NPM
+
 #### Make a backup of your current nvim and shared folder
 
 ```shell
@@ -26,7 +30,7 @@ You can also just clone this repository directly if you do not want to track you
 #### Clone the repository
 
 ```shell
-git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim/lua/user
+git clone https://github.com/k1empka/nvim-astronvim ~/.config/nvim/lua/user
 ```
 
 #### Start Neovim
