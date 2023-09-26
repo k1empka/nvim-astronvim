@@ -4,12 +4,10 @@ A user configuration template for [AstroNvim](https://github.com/AstroNvim/Astro
 
 ## 🛠️ Installation
 
-#### Instal Go
-
-#### Instal NPM
-
-#### Install Unzip
-
+1. Install `GO`
+2. Clone this repository to `~/.config.nvim`
+3. Install unzip
+   
 #### Make a backup of your current nvim and shared folder
 
 ```shell
