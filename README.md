@@ -5,8 +5,8 @@
 ## 🛠️ Installation
 
 1. Install `GO`
-2. Clone this repository to `~/.config/nvim`
-3. Install unzip
+2. Install unzip
+3. Clone this repository to `~/.config/nvim/lua/user`
    
 #### Make a backup of your current nvim and shared folder
 
