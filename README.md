@@ -1,6 +1,6 @@
 ## AstroNeovim configuration
 
-![Screenshot from 2023-11-13 17-01-20](https://github.com/k1empka/nvim-astronvim/assets/22158001/9ddc4e8b-f694-44ec-9061-bfa800e6b494)
+![Screenshot from 2023-11-13 17-05-54](https://github.com/k1empka/nvim-astronvim/assets/22158001/65310f97-080a-4e22-bc12-cfe528954dfa)
 
 ## 🛠️ Installation
 
