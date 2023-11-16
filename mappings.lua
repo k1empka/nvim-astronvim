@@ -30,6 +30,18 @@ return {
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
+    ["<leader>gD"] = {
+      ":GoDoc<cr>",
+      desc = "Go Document",
+    },
+    ["<leader>fX"] = {
+      ":Telescope repo list<cr>",
+      desc = "Find project by .git",
+    },
+    ["<leader>fx"] = {
+      ":Telescope project<cr>",
+      desc = "Find project",
+    },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
   },
