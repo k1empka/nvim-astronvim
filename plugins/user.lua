@@ -45,4 +45,8 @@ return {
     "iamcco/markdown-preview.nvim",
     lazy = false,
   },
+  {
+    "wfxr/minimap.vim",
+    lazy = false,
+  },
 }
