@@ -1,3 +1,5 @@
+local utils = require "astronvim.utils"
+
 -- Mapping data with "desc" stored directly by vim.keymap.set().
 --
 -- Please use this mappings table to set keyboard mapping since this is the
@@ -29,10 +31,16 @@ return {
     },
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
+    ["<leader>a"] = { name = "I AI" },
     ["<leader>b"] = { name = "Buffers" },
-    ["<leader>gD"] = {
+    ["<leader>x"] = { name = "Code" },
+    ["<leader>xd"] = {
       ":GoDoc<cr>",
       desc = "Go Document",
+    },
+    ["<leader>xa"] = {
+      ":AerialToggle<cr>",
+      desc = "Structures function",
     },
     ["<leader>fX"] = {
       ":Telescope repo list<cr>",
@@ -41,6 +49,10 @@ return {
     ["<leader>fx"] = {
       ":Telescope project<cr>",
       desc = "Find project",
+    },
+    ["<leader>ag"] = {
+      ":ChatGPT<cr>",
+      desc = "Open ChatGPT",
     },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command

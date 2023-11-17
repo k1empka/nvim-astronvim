@@ -65,6 +65,26 @@ return {
     },
   },
 
+  dap = {
+    adapters = {
+      go = {
+        type = "executable",
+        command = "node",
+        args = { os.getenv "HOME" },
+      },
+    },
+    configuration = {
+      go = {
+        type = "go",
+        name = "Debug",
+        request = "launch",
+        showLog = false,
+        program = "/Users/tomaszklempka/GIT/restaurant-pos/server/commands/emaster/cmd/main.go",
+        dlvToolPath = vim.fn.exepath "dlv",
+      },
+    },
+  },
+
   -- This function is run last and is a good place to configuring
   -- augroups/autocommands and custom filetypes also this just pure lua so
   -- anything that doesn't fit in the normal config locations above can go here
