@@ -27,6 +27,10 @@ git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 git clone https://github.com/k1empka/nvim-astronvim ~/.config/nvim/lua/user
 ```
 
+#### (Optional) Add ChatGPT API key
+
+Add an environment variable `$OPENAI_API_KEY`. An API key can be generate in https://platform.openai.com/api-keys
+
 #### Start Neovim
 
 ```shell
