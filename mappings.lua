@@ -42,6 +42,10 @@ return {
       ":AerialToggle<cr>",
       desc = "Structures function",
     },
+    ["<leader>xf"] = {
+      ":GoFillStruct<cr>",
+      desc = "Fill structure",
+    },
     ["<leader>fX"] = {
       ":Telescope repo list<cr>",
       desc = "Find project by .git",
@@ -54,6 +58,15 @@ return {
       ":ChatGPT<cr>",
       desc = "Open ChatGPT",
     },
+    ["<leader>at"] = {
+      ":ChatGPTRun translate<cr>",
+      desc = "ChatGPT Translate",
+    },
+    ["<leader>ar"] = {
+      ":ChatGPTRun code_readability_analysis<cr>",
+      desc = "ChatGPT Code Readability Analysis",
+    },
+
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
   },
