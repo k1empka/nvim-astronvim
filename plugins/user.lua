@@ -1,6 +1,6 @@
 local config = {
   colorcolumn = "90",
-  disabled_filetypes = { "help", "text", "markdown" },
+  disabled_filetypes = { "NvimTree", "help", "text", "markdown" },
   custom_colorcolumn = {},
   scope = "file",
 }
@@ -66,5 +66,10 @@ return {
       "nvim-lua/plenary.nvim",
       "nvim-telescope/telescope.nvim",
     },
+  },
+  {
+    "github/copilot.vim",
+    lazy = false,
+    enabled = true,
   },
 }

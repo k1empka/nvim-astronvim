@@ -54,6 +54,10 @@ return {
       ":Telescope project<cr>",
       desc = "Find project",
     },
+    ["<leader>ac"] = {
+      ":Copilot enable<cr>",
+      desc = "Enable Copilot",
+    },
     ["<leader>ag"] = {
       ":ChatGPT<cr>",
       desc = "Open ChatGPT",
