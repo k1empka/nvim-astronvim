@@ -18,7 +18,8 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "tokyonight-moon",
+  -- colorscheme = "tokyonight-moon",
+  colorscheme = "solarized-osaka",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {

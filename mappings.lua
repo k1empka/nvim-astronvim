@@ -70,7 +70,10 @@ return {
       ":ChatGPTRun code_readability_analysis<cr>",
       desc = "ChatGPT Code Readability Analysis",
     },
-
+    ["<leader>z"] = {
+      ":ZenMode<cr>",
+      desc = "Zen Mode",
+    },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
   },
